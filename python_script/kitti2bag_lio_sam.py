@@ -395,6 +395,7 @@ def run_kitti2bag(data_path, data_date, data_drive, start_id, end_id, name, reco
         bag.close()
 
 
+# 制作disco-slam的三个段数据集
 if __name__ == '__main__':
     record_topic = {"static_tf": False, "tf": False, "lidar": True, "gps": True, "imu": True, "camera": False}
 
